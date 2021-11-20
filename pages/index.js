@@ -6,7 +6,6 @@ import Results from '../components/Results'
 import requests from '../utils/requests'
 
 export default function Home(props) {
-  console.log(props.results)
   return (
     <div>
       <Head>
