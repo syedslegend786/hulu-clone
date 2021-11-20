@@ -11,6 +11,7 @@ const Thumbnail = forwardRef(({ data }, ref) => {
                 src={`${BASE_URL}${data.backdrop_path}`}
                 height='1080'
                 width='1920'
+                alt=''
             />
             <div className='p-2'>
                 <p className='truncate max-w-md'>{data.overview}</p>
